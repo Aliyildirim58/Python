@@ -25,13 +25,9 @@ def response(voice):
     if 'Selam' in voice:
         speak("Aleykümselam")
     if 'ismin ne' in voice:
-        speak("Merhaba ben sivaslı siri halk arasında kangal siri de derler.")
-    if 'Ne yapıyorsun dayı' in voice:
-        speak("Kendim için yapmıyorum ezel")
-    if 'mesele neymiş dayı' in voice:
-        speak("Mesele dost bildiğin adamın eliyle ölmekmiş mesele.Şimdi anladın mı o avludaki çocuk kimmiş kardeş")
-    if 'Ne yaptın Ramiz işi berbat ettin'in voice:
-        speak("Tamam kardeş tamam bir zamanalar buralar mert insanların diyarıydı şimdi bakıyorumda çapulcuları doldurmuşsun.")
+        speak("Merhaba james")
+    if 'Nasılsın' in voice:
+        speak("Teşekkürler sen nasılsın")
     if 'saat kaç' in voice:
         speak(datetime.now().strftime('%H:%M:%S'))
     if 'arama yap' in voice:
