@@ -53,7 +53,7 @@ def speak(string):
     os.remove(file)
 
 
-speak("Buyur nasıl yardımcı olabilirim?")
+speak("Buyrun nasıl yardımcı olabilirim?")
 time.sleep(1)
 while 1:
     voice=record()
